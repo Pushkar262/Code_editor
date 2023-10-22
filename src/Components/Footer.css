@@ -1,0 +1,45 @@
+body{
+  position: relative;
+  min-height: 120vh;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  bottom: 0;
+  width: 100%; 
+  position: absolute; 
+}
+
+.brand-logo{
+  font-size: 30px;
+  margin-left: 20px;
+  color: orange;
+  transition: color 0.3s;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+/* Responsive styles for screens smaller than 768px */
+@media (max-width: 768px) {
+
+  body{
+    position: relative;
+    height: 100%;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
